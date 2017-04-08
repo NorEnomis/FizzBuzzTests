@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
 
 namespace FooBarQixTests
 {
@@ -40,7 +39,14 @@ namespace FooBarQixTests
 
         private static string HandleDivisible(int number, string translation)
         {
-            return TranslationRules.Keys.Where(figure => number.IsDivisibleBy(figure)).Aggregate(translation, (current, figure) => current + TranslationRules[figure]);
+            foreach (int figure in TranslationRules.Keys)
+            {
+                if (number.IsDivisibleBy(figure))
+                {
+                    translation += TranslationRules[figure];
+                }
+            }
+            return translation;
         }
     }
 }
