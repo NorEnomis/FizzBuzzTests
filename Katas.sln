@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardMaskTests", "Cred
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeTests", "PalindromeTests\PalindromeTests.csproj", "{366C3190-6894-4AAA-B735-6DC5B3CBCC7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeFactorsTests", "PrimeFactorsTests\PrimeFactorsTests.csproj", "{4455D979-981F-4FBA-A7E8-B9541C149468}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{366C3190-6894-4AAA-B735-6DC5B3CBCC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{366C3190-6894-4AAA-B735-6DC5B3CBCC7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{366C3190-6894-4AAA-B735-6DC5B3CBCC7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4455D979-981F-4FBA-A7E8-B9541C149468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4455D979-981F-4FBA-A7E8-B9541C149468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4455D979-981F-4FBA-A7E8-B9541C149468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4455D979-981F-4FBA-A7E8-B9541C149468}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
